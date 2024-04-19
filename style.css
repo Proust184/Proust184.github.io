@@ -288,6 +288,10 @@ nav a:hover {
     cursor: pointer;
 }
 
+.tablette-mobile {
+    display: none;
+}
+
 .vignette:hover img,
 .vignette:hover h3 {
     transition: 0.5s ease;
@@ -629,6 +633,10 @@ nav a:hover {
     .overlay button {
         display: none;
     }
+
+    .tablette-mobile {
+        display: flex;
+    }
 }
 
 /* Mobile L */
@@ -729,6 +737,10 @@ nav a:hover {
 
     .overlay button {
         display: none;
+    }
+
+    .tablette-mobile {
+        display: flex;
     }
 
 }
@@ -837,6 +849,10 @@ nav a:hover {
     .overlay button {
         display: none;
     }
+
+    .tablette-mobile {
+        display: flex;
+    }
 }
 
 /* Mobile S */
@@ -865,6 +881,15 @@ nav a:hover {
     .projets .main-text,
     .contact .main-text {
         font-size: 2em;
+        border-top: 0.5px solid white;
+    }
+
+    .competences .main-text {
+        margin: -20px 0px;
+    }
+
+    .projets .main-text {
+        margin: -80px 0px;
     }
 
     .informations .second-text,
@@ -937,5 +962,25 @@ nav a:hover {
 
     .overlay button {
         display: none;
+    }
+    
+    .tablette-mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formulaire-contact {
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+    }
+    
+    /* Copyright */
+    .copyright p {
+        font-size: 5px;
+    }
+    
+    .copyright img {
+        padding: 2px 2px;
     }
 }
