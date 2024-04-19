@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&family=Monoton&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section class="accueil">
+        <nav id="main-nav">
+            <p><a href="#home" class="active">Home</a></p>
+            <p><a href="#presentation">Présentation</a></p>
+            <p><a href="#competences">Compétences</a></p>
+            <p><a href="#parcours">Parcours</a></p>
+            <p><a href="#projets">Projets</a></p>
+            <p><a href="#contact">Contact</a></p>
+        </nav>
+        <div class="presentation" id="home">
+            <img src="images/Carré_blanc.jpg" alt="Photo">
+            <br><br>
+            <div class="prenom">
+                <p>DEFFONTAINE Pauline</p>
+                <p>Développeuse Web - Full stack</p>
+            </div>
+        </div>
+    </section>
+    <section class="informations" id="presentation">
+        <h1 class="main-text">Présentation</h1>
+        <h1 class="second-text">Qui suis-je?</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita minima in porro suscipit voluptatibus
+            quo optio, quaerat asperiores amet magnam nobis ad perferendis eum esse ut dolor dolorem sint voluptatem!
+            <!-- Formation actuelle, ce que je recherche -->
+        </p>
+        <a href="misc/CV Pauline DEFFONTAINE.pdf" download="CV_Pauline-DEFFONTAINE"><input type="button"
+                value="Téléchargez mon CV"></a>
+    </section>
+    <section class="competences" id="competences">
+        <h1 class="main-text">Compétences</h1>
+        <h1 class="second-text">Aptitudes</h1>
+        <div class="hard-skills">
+            <div class="front-end">
+                <h4>Front-end</h4>
+                <div>
+                    <img srcset="images/icones/grande/html.png 1024w,
+             images/icones/moyenne/html.png 768w,
+             images/icones/petite/html.png 360w" sizes="(min-width: 1024px) 1024px,
+            (min-width: 768px) 768px,
+            360px" src="images/icones/grande/html.png" alt="Logo HTML5">
+                    <img srcset="images/icones/grande/css.png 1024w,
+            images/icones/moyenne/css.png 768w,
+            images/icones/petite/css.png 360w" sizes="(min-width: 1024px) 1024px,
+           (min-width: 768px) 768px,
+           360px" src="images/icones/grande/html.png" alt="Logo CSS3">
+                </div>
+                <div>
+                    <img srcset="images/icones/grande/sass.png 1024w,
+                    images/icones/moyenne/sass.png 768w,
+                    images/icones/petite/sass.png 360w" sizes="(min-width: 1024px) 1024px,
+                   (min-width: 768px) 768px,
+                   360px" src="images/icones/grande/html.png" alt="Logo SASS">
+                    <img srcset="images/icones/grande/js.png 1024w,
+                   images/icones/moyenne/js.png 768w,
+                   images/icones/petite/js.png 360w" sizes="(min-width: 1024px) 1024px,
+                  (min-width: 768px) 768px,
+                  360px" src="images/icones/grande/html.png" alt="Logo JavaScript">
+                </div>
+            </div>
+            <div class="back-end">
+                <h4>Back-end</h4>
+                <img srcset="images/icones/grande/php.png 1024w,
+                images/icones/moyenne/php.png 768w,
+                images/icones/petite/php.png 360w" sizes="(min-width: 1024px) 1024px,
+               (min-width: 768px) 768px,
+               360px" src="images/icones/grande/php.png" alt="Logo PHP">
+                <img srcset="images/icones/grande/mysql.png 1024w,
+               images/icones/moyenne/mysql.png 768w,
+               images/icones/petite/mysql.png 360w" sizes="(min-width: 1024px) 1024px,
+              (min-width: 768px) 768px,
+              360px" src="images/icones/grande/html.png" alt="Logo MySql">
+            </div>
+
+            <div class="soft-skills">
+                <h3>Soft skills</h3>
+                <ul>
+                    <li>Sens de l'écoute</li>
+                    <li>Gestion du temps</li>
+                    <li>Organisée</li>
+                    <li>Esprit d'équipe</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="parcours" id="parcours">
+        <h1 class="main-text">Parcours</h1>
+        <h1 class="second-text">Formation</h1>
+        <img src="images/epitech.png" alt="Logo Epitech">
+        <h4>Intégrateur/Développeur web, 2023 - 2025</h4>
+        <p>Formation immersive avec méthodologie de projets</p>
+    </section>
+    <section class="projets" id="projets">
+        <h1 class="main-text">Projets</h1>
+        <h1 class="second-text">Portfolio</h1>
+        <div class="grid-projet">
+            <div class="vignette" id="tweet-academy">
+                <h3>Tweet Academy</h3>
+                <img src="images/twitter.png" alt="Screen de mon projet Tweet Academy">
+                <div class="overlay">
+                    <p>Projet de groupe (3 personnes), fait en 1 mois</p>
+                    <br>
+                    <p>
+                        Le but de ce projet est de créer un réseau social pour les étudiants de notre promotion, qui
+                        aura les mêmes fonctionnalités que twitter. Il devra être le plus ressemblant possible en
+                        terme de fonctionnalités par rapport au site “Twitter”.</p>
+                    <br>
+                    <p>HTML/CSS, PHP, MySql, JavaScript</p>
+                    <br>
+                    <button onclick="tweetPopup()">Plus d'infos</button>
+                </div>
+            </div>
+            <div id="tweet-academy-popup">
+                <div class="tweet-popup-content">
+                    <div class="grid-popup">
+                        <div class="informations-popup">
+                            <h5>Fonctionnalités :</h5>
+                            <ul>
+                                <li>- Compte membre comme pour Twitter, éditer son profil</li>
+                                <li>- Tweet : limité à 140 caractères, peut ajouter un #
+                                    <br>et cibler une personne (@) avec auto-complétion
+                                </li>
+                                <li>- Répondre à un tweet et retweeter</li>
+                                <li>- Section de recherche de tag et user, avec auto-complétion</li>
+                                <li>- Follow et unfollow un membre</li>
+                                <li>- Afficher la liste des followers/followings</li>
+                                <li>- Timeline rafraichie automatiquement</li>
+                                <li>- Système de messagerie privé instantanée</li>
+                                <br>
+                                <li><img src="images/twitter.png" alt="Screen de mon projet Tweet Academy"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="javascript:void(0)" onclick="tweetPopup()" class="popup-exit">Fermer</a>
+                </div>
+            </div>
+            <div class="vignette" id="my-cinema">
+                <h3>My Cinema</h3>
+                <img src="images/my-cinema.png" alt="Screen de mon projet My Cinema">
+                <div class="overlay">
+                    <p>Projet individuel, 2 semaines</p>
+                    <br>
+                    <p>À partir de la base de données MySQL fournie avec le sujet, vous allez devoir réaliser un site
+                        qui permettra d’interagir avec cette dernière. Le but du projet est orienté PHP et MySQL.
+                    </p>
+                    <br>
+                    <p>HTML/CSS, PHP, MySql</p>
+                    <br>
+                    <button onclick="cinemaPopup()">Plus d'infos</button>
+                </div>
+            </div>
+            <div id="my-cinema-popup">
+                <div class="cinema-popup-content">
+                    <div class="grid-popup">
+                        <div class="informations-popup">
+                            <h5>Fonctionnalités :</h5>
+                            <ul>
+                                <li><span>Pour les utilisateurs :</span></li>
+                                <li>- Rechercher des films par genre et/ou distributeur, en plus du nom du film</li>
+                                <li>- Afficher son historique</li>
+                                <li>- Rechercher un film par date de projection</li>
+                                <br>
+                                <li><span>Pour les administrateur du site :</span></li>
+                                <li>- Rechercher un membre par son nom et/ou prénom</li>
+                                <li>- Ajouter, supprimer, modifier un abonnement à un client</li>
+                                <li>- Ajouter une entrée à cet historique (film vu par le membre aujourd'hui)</li>
+                                <li>- Ajouter une séance pour un film</li>
+                                <li>- Programmer des films en salle</li>
+
+                                <br>
+                                <li><img src="images/my-cinema.png" alt="Screen de mon projet My Cinema"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="javascript:void(0)" onclick="cinemaPopup()" class="popup-exit">Fermer</a>
+                </div>
+            </div>
+            <div class="vignette">
+                <h3>Chatterie de France</h3>
+                <img src="images/chatterie-de-france.png" alt="Screen de mon projet Chatterie de France">
+                <div class="overlay">
+                    <p>Projet personnel, 4 jours</p>
+                    <br>
+                    <p>Création d'un mini-site de 4 pages, en vu d'un entretien pour rentrer chez Epitech. Thème au
+                        choix</p>
+                    <br>
+                    <p>HTML/CSS</p>
+                    <br>
+                    <button onclick="chatteriePopup()">Plus d'infos</button>
+                </div>
+            </div>
+            <div id="chatterie-popup">
+                <div class="chat-popup-content">
+                    <div class="grid-popup">
+                        <div class="informations-popup">
+                            <h5>Détails :</h5>
+                            <ul>
+                                <li>Mini-site de 4 pages</li>
+                                <li><span>Accueil :</span> présentation de la chatterie</li>
+                                <li><span>Nos chats :</span> présentation des chats de la chatterie</li>
+                                <li><span>Nos chatons :</span> présentation des chatons disponible à l'adoption</li>
+                                <li><span>Contact :</span> page de contact avec les informations de la chatterie, en
+                                    plus d'un formulaire</li>
+                                <br>
+                                <li><img src="images/chatterie-de-france.png"
+                                        alt="Screen de mon projet Chatterie de France"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="javascript:void(0)" onclick="chatteriePopup()" class="popup-exit">Fermer</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h1 class="main-text">Contact</h1>
+        <h1 class="second-text">Contact</h1>
+        <form class="formulaire-contact">
+            <div class="name-contact">
+                <input id="name" type="text" placeholder="Nom">
+            </div>
+            <div class="mail-contact">
+                <input id="email" type="mail" placeholder="E-mail">
+            </div>
+            <div class="message-contact">
+                <input id="message" type="text" placeholder="Message">
+            </div>
+            <div class="submit-contact">
+                <input id="submit" type="submit" value="Me contacter">
+            </div>
+        </form>
+    </section>
+    <section class="copyright">
+        <a href="https://github.com/Proust184" target="_blank"><img srcset="images/icones/moyenne/github.png 1024w,
+                    images/icones/petite/github.png 360w" sizes="(min-width: 1024px) 1024px,
+                   (min-width: 768px) 768px,
+                   360px" src="images/icones/grande/github.png" alt="Logo Github"></a>
+        <a href="https://www.linkedin.com/in/pauline-deffontaine-fleck-558199279/" target="_blank"><img srcset="images/icones/moyenne/linkedin.png 1024w,
+                   images/icones/petite/linkedin.png 360w" sizes="(min-width: 1024px) 1024px,
+                  (min-width: 768px) 768px,
+                  360px" src="images/icones/grande/linkedin.png" alt="Logo Linkedin"></a>
+        <img srcset="images/icones/moyenne/mail.png 1024w,
+                  images/icones/petite/mail.png 360w" sizes="(min-width: 1024px) 1024px,
+                 (min-width: 768px) 768px,
+                 360px" src="images/icones/grande/mail.png" alt="Logo Mail">
+        <p>© Copyright 2024 - Pauline DEFFONTAINE. Tous droits réservés.</p>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
