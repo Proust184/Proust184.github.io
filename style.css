@@ -636,6 +636,22 @@ nav a:hover {
 
     .tablette-mobile {
         display: flex;
+        flex-direction: column;
+    }
+
+    .formulaire-contact {
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+    }
+    
+    /* Copyright */
+    .copyright p {
+        font-size: 8px;
+    }
+    
+    .copyright img {
+        padding: 5px 5px;
     }
 }
 
@@ -739,8 +755,19 @@ nav a:hover {
         display: none;
     }
 
-    .tablette-mobile {
+    .formulaire-contact {
         display: flex;
+        flex-direction: column;
+        padding: 50px;
+    }
+    
+    /* Copyright */
+    .copyright p {
+        font-size: 5px;
+    }
+    
+    .copyright img {
+        padding: 2px 2px;
     }
 
 }
@@ -852,6 +879,22 @@ nav a:hover {
 
     .tablette-mobile {
         display: flex;
+        flex-direction: column;
+    }
+
+    .formulaire-contact {
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+    }
+    
+    /* Copyright */
+    .copyright p {
+        font-size: 5px;
+    }
+    
+    .copyright img {
+        padding: 2px 2px;
     }
 }
 
