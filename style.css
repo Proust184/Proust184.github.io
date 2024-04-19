@@ -106,6 +106,12 @@ nav a:hover {
     border: none;
     cursor: pointer;
     margin: 50px;
+    outline: none;
+}
+
+.informations input[type=button]:hover {
+    background-color: #C6BEB6;
+    color: #EBE3DD;
 }
 
 /* Compétences */
@@ -288,6 +294,11 @@ nav a:hover {
     cursor: pointer;
 }
 
+.overlay button:hover {
+    background-color: #97897C;
+    color: white;
+}
+
 .tablette-mobile {
     display: none;
 }
@@ -451,6 +462,12 @@ nav a:hover {
     padding: 10px;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
+}
+
+.formulaire-contact input[type=submit]:hover {
+    background-color: #97897C;
+    color: white;
 }
 
 /* Copyright */
@@ -569,6 +586,7 @@ nav a:hover {
     .projets .main-text,
     .contact .main-text {
         font-size: 2em;
+        border-top: solid 1px white;
     }
 
     .informations .second-text,
@@ -579,6 +597,11 @@ nav a:hover {
         font-size: 3em;
     }
 
+    .projets .main-text,
+    .projets .second-text {
+        margin: -80px 0px;
+    }
+
     .presentation img {
         height: 200px;
         width: 200px;
@@ -587,6 +610,12 @@ nav a:hover {
 
     .presentation .prenom {
         padding: 40px;
+    }
+
+    .competences .hard-skills {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10px;
     }
 
     .grid-projet {
@@ -644,12 +673,12 @@ nav a:hover {
         flex-direction: column;
         padding: 50px;
     }
-    
+
     /* Copyright */
     .copyright p {
         font-size: 8px;
     }
-    
+
     .copyright img {
         padding: 5px 5px;
     }
@@ -676,6 +705,7 @@ nav a:hover {
     .projets .main-text,
     .contact .main-text {
         font-size: 2em;
+        border-top: 1px solid white;
     }
 
     .informations .second-text,
@@ -684,6 +714,10 @@ nav a:hover {
     .projets .second-text,
     .contact .second-text {
         display: none;
+    }
+
+    .projets .main-text {
+        margin: -80px 0px;
     }
 
     .presentation img {
@@ -731,28 +765,12 @@ nav a:hover {
     }
 
     .overlay {
-        padding: 0px 10px;
+        display: none;
+    }
+
+    .tablette-mobile {
         display: flex;
         flex-direction: column;
-        position: absolute;
-        transition: 0.5s ease;
-        height: 250px;
-        width: 334px;
-        top: 0;
-        left: 0px;
-        background-color: white;
-        opacity: 0;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .overlay p {
-        font-size: 15px;
-    }
-
-    .overlay button {
-        display: none;
     }
 
     .formulaire-contact {
@@ -760,12 +778,12 @@ nav a:hover {
         flex-direction: column;
         padding: 50px;
     }
-    
+
     /* Copyright */
     .copyright p {
         font-size: 5px;
     }
-    
+
     .copyright img {
         padding: 2px 2px;
     }
@@ -798,6 +816,15 @@ nav a:hover {
     .projets .main-text,
     .contact .main-text {
         font-size: 2em;
+        border-top: 1px solid white;
+    }
+
+    .projets .main-text {
+        margin: -80px 0px;
+    }
+
+    .competences .main-text {
+        margin: -30px 0px;
     }
 
     .informations .second-text,
@@ -853,27 +880,6 @@ nav a:hover {
     }
 
     .overlay {
-        padding: 0px 10px;
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        transition: 0.5s ease;
-        height: 250px;
-        width: 300px;
-        top: 0;
-        left: 0px;
-        background-color: white;
-        opacity: 0;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .overlay p {
-        font-size: 13px;
-    }
-
-    .overlay button {
         display: none;
     }
 
@@ -887,12 +893,12 @@ nav a:hover {
         flex-direction: column;
         padding: 50px;
     }
-    
+
     /* Copyright */
     .copyright p {
         font-size: 5px;
     }
-    
+
     .copyright img {
         padding: 2px 2px;
     }
@@ -1006,7 +1012,7 @@ nav a:hover {
     .overlay button {
         display: none;
     }
-    
+
     .tablette-mobile {
         display: flex;
         flex-direction: column;
@@ -1017,12 +1023,12 @@ nav a:hover {
         flex-direction: column;
         padding: 50px;
     }
-    
+
     /* Copyright */
     .copyright p {
         font-size: 5px;
     }
-    
+
     .copyright img {
         padding: 2px 2px;
     }
