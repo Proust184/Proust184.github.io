@@ -449,7 +449,7 @@ nav a:hover {
 }
 
 .formulaire-contact input[type=text],
-.formulaire-contact input[type=mail] {
+.formulaire-contact input[type=email] {
     border-width: 0px 0px 1px 0px;
     background-color: rgb(250, 250, 250, 0);
     width: 100%;
@@ -690,6 +690,12 @@ nav a:hover {
         font-size: 10px;
     }
 
+    nav a {
+        font-size: 8px;
+        margin: 0px 8px;
+        padding: 5px;
+    }
+
     .presentation,
     .competences,
     .informations,
@@ -794,6 +800,12 @@ nav a:hover {
 @media (min-width: 321px) and (max-width: 375px) {
     * {
         font-size: 10px;
+    }
+
+    nav a {
+        font-size: 7px;
+        margin: 0px 8px;
+        padding: 5px;
     }
 
     .presentation,
@@ -908,6 +920,12 @@ nav a:hover {
 @media (max-width: 320px) {
     * {
         font-size: 10px;
+    }
+
+    nav a {
+        font-size: 6px;
+        margin: 0px 5px;
+        padding: 5px;
     }
 
     .presentation,
